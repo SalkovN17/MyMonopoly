@@ -39,7 +39,7 @@ class Map {
 public:
 
     Map(int NumberPlayers) {
-        NumberPlayers = this->NumberPlayers;
+	this->NumberPlayers = NumberPosition;
     }
 
     string GetInfoPosition(int NumberPosition) {
@@ -68,3 +68,4 @@ int main()
     vector <Player> Players(NumberPlayers);
     Map Game(NumberPlayers);
 }
+
