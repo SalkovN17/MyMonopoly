@@ -45,7 +45,7 @@ class Map {
 public:
 
     string GetInfoPosition(int NumberPosition) {
-        if (NumberPosition);
+        if (NumberPosition);    //123
     }
 
 };
