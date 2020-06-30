@@ -1,13 +1,70 @@
-﻿
-
-#include <iostream>
-
+﻿#include <iostream>
+#include <ctime>
+#include "windows.h"
+#include <string>
+#include <vector>
 using namespace std;
+
+class Business {
+
+    bool Occupied = false;
+
+public:
+};
+
+class Cars {
+
+};
+
+class Movies {
+
+};
+
+class Question {
+
+};
+
+class Jail {
+
+};
+
+class Penalty {
+
+};
+
+class Map {
+
+    int NumberPlayers;
+
+public:
+
+    Map(int NumberPlayers) {
+        NumberPlayers = this->NumberPlayers;
+    }
+
+    string GetInfoPosition(int NumberPosition) {
+        if (NumberPosition);
+    }
+
+};
+
+class Player {
+
+    int Money = 15000;
+
+public:
+
+    void MakeMotion() {
+
+    }
+
+};
 
 int main()
 {
-	cout << "Я сделал изменение";
-	cout << "Привет, Влад!";
-	return 1;
+    setlocale(LC_ALL, "Russian");       //123
+    srand(time(NULL));
+    int NumberPlayers = 2;
+    vector <Player> Players(NumberPlayers);
+    Map Game(NumberPlayers);
 }
-
